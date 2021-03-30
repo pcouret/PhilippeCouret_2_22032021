@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
+<header>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-sczale=1=0">
 	<title>Ou dormir ?</title>
 	<link rel="stylesheet" href="style_mise_en_pratique_html_css_250321.css">
-</head>
+</header>
 	<body>
 
 		<header>
+			<div class="bloc-reservia">
 			<h1><a href="ton_lien.html"><img src="img/Reservia.svg"alt=""></a></h1>
-						
+			</div>
+			<li class="padding-ancre navigation-lien">
+				<a href="#ancre1">Hébergement</a>
+			</li>
+			<li class="padding-ancre navigation-lien">
+				<a href="#ancre1">Activités</a>				
+			</li>
+			<li class="padding-ancre navigation-lien">
+				<a href="#ancre1">S'inscrire</a>
+			</li>		
 			<a href="">Hébergements</a>
 			<a href="">Activités</a>	
 			<a href="">S'inscrire</a>
@@ -18,13 +28,50 @@
 
 			<h2>Trouver votre hébergement pour des vacances de rêve</h2>
 			<h5>En plein centre ville ou en pleine nature</h5>
-			<label for="site-search"></label>
-			<input type="search" id="site-search" name=""
+
+			<form method action>
+			<label for="ville"></label>
+			<input type="search" id="site-search" name="ville"
        		aria-label="Search through site content">
   			<button>Rechercher</button>
+  			</form>
 
-			<div class="onglets">
+			<div class="filtres">
 				<h3>Filtres</h3>
+				<a class="bloc filtre" href="#">
+					<i class="fas bulle fa-money-bill-wave" aria-hidden="true">
+						::before
+					</i>
+					<p class="majuscule filtre-animaux">économique</p>
+				</a>
+				<a class="bloc filtre" href="#">
+					<i class="fas bulle fa-child" aria-hidden="true">
+						::before
+					</i>
+					<p class="majuscule filtre-animaux">Familial</p>
+				</a>
+				<a class="bloc filtre" href="#">
+					<i class="fas bulle fa-heart" aria-hidden="true">
+						::before
+					</i>
+					<p class="majuscule filtre-animaux">Romantique</p>
+				</a>
+				<a class="bloc filtre" href="#">
+					<i class="fas bulle fa-dog" aria-hidden="true">
+						::before
+					</i>
+					<p class="filtre Animaux">Animaux autorisés</p>
+				</a>
+			</div>
+
+			<!--partie information-->
+			<div class="info-logement">
+				<i class="fas info fa-info" aria-hidden="true">
+					::before
+				</i>
+				<p class="center-p">Plus de 500 logements sont disponibles dans cette ville</p>			
+			</div>
+
 
 				<a href="">Economique</a>
 				<a href="">Familial</a>
@@ -32,6 +79,17 @@
 				<a href="">Animaux autorisés</a>
 
 			<h2>Plus de 500 logements sont disponibles dans cette ville</h2>
+
+			<div class="info-logement">
+				<i class="fas info fa-info" aria-hidden="true">
+					::before
+				</i>
+				<p class="center-p">Plus de 500 logements sont disponibles dans cette ville</p>
+			</div>
+
+
+
+
 		</header>
 
 		<section class="main" id="hébergement à Marseille">
@@ -93,6 +151,21 @@
 						<h1>Auberge La Cannebière</h1>
 						<p>Nuit à partir de 25€</p>
 						<p>&#10033 &#10033 &#10033 &#10033;</p>
+						<i class="fas blue fa-star" aria-hidden="true">
+						  ::before
+						  </i>
+						  <i class="fas blue fa-star" aria-hidden="true">
+						  ::before
+						</i>
+						  <i class="fas blue fa-star" aria-hidden="true">
+						  ::before
+						</i>
+						  <i class="fas blue fa-star" aria-hidden="true">
+						  ::before
+						</i>
+						<i class="fas grey fa-star" aria-hidden="true">
+						  ::before
+						</i>
 					</div>
 				</div>
 				<div class="card">
@@ -279,7 +352,7 @@
             <p>Si ce site vous plait , n'esitez pas à venir dans notre boutique ou 
             de nombreuses offres de voyages sont en promotions <br />
 
-            <a href="img/ADRESSE_MARSEILLE.txt">Contact </a></p>
+            <a href="ADRESSE_MARSEILLE.txt">Contact </a></p>
         </footer>
         
     </body>
