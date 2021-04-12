@@ -248,6 +248,11 @@ header > a:hover
     cursor: pointer;
 }
 
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+}
 .searchIcon
 { 
     visibility: hidden;
