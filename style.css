@@ -166,7 +166,7 @@ header a
     padding: 0 25px;
     padding-top: 40px;
     font-size: .9rem;
-    color: #000;
+    color: auto;
     text-decoration: none;
     transition: color .2s;
 }
@@ -177,25 +177,26 @@ nav ul
     padding: 0;
     height: 100%;
     list-style-type: none;
+    color: rgb(8, 176, 231);
 }
 
 nav a:hover
 {
     padding-top: 38px;
     border-top: 2px solid var(--color2);
-    color: var(--color2);
+    color: #0065fc;
 }
 
 header > a
 {
     margin-right: 10px;
     font-weight: bold;
-    color: var(--color2);
+    color: #0065fc;
 }
 
 header > a:hover
 {
-    color: #83b4fd;
+    color: #69a0f3;
 }
 
 /* Search Section */
@@ -210,9 +211,17 @@ header > a:hover
 {
     margin: 10px 0;
     display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
-    width: 300px;
+    width: 100%;
+    padding: 10px 50px 20px 10px;
+    background-color: #0065fc;
+    border: solid 1px grey;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    font-family: arial, verdana, sans-serif;
+    font-size: 18px;
+    color: white;
 }
 
 .locationIcon
@@ -243,9 +252,9 @@ header > a:hover
     border: 1px solid #0065fc;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    color: #fff;
+    color:#fff;
     cursor: pointer;
-    width: 100%;
+    font-weight: 100%;
 }
 
 *
