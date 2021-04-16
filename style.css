@@ -222,6 +222,7 @@ header > a:hover
     font-size: 18px;
     color: white;
     align-items: stretch;
+    justify-content: flex-start;
 }
 
 .locationIcon
@@ -1008,7 +1009,8 @@ footer a
         display: flex;
         width: 100%;
         justify-content: flex-start;
-        align-items: center;
+        align-items: stretch;
+        
         
     }
 
@@ -1056,7 +1058,11 @@ input{
     font-weight:bold;
     font-size:larger;
     padding: 10px 10px 10px 10px;
+    width: 100%;
+    justify-content: flex-start;
+    height: 40px;
 }
+
 
 #recherche{
     justify-content: flex-start;
@@ -1070,6 +1076,9 @@ input{
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 10px;
     font-weight:bold;
-    
+    width: 90px;
 }
-    
+
+#foundRentalSection{
+    color: #0065FC;
+}
