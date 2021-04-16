@@ -1029,10 +1029,10 @@ footer a
     background-color: #F2F2F2;
     border:1px #F2F2F2 solid;
     width: 30px;
-    height: 30px;
+    height: 40px;
     padding: 10px;
-    border-top-left-radius: 15px ;
-    border-bottom-left-radius: 15px;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px;
 }
 
 #loupe{
@@ -1040,22 +1040,22 @@ footer a
  }
 
 #ville{
-    display: flex;
+    
     justify-content: flex-start;
     align-items: stretch;
     background-color: white;
     border:1px #F2F2F2 solid;
-    width: 20%;
-    height: 30px;
+    height: 40px;
      
 }
 input{
     border: none;
     align-items: stretch;
-    text-align: center;
+    text-align: left;
     text-decoration-color: black;
     font-weight:bold;
     font-size:larger;
+    padding: 10px 10px 10px 10px;
 }
 
 #recherche{
@@ -1063,13 +1063,13 @@ input{
     align-items: stretch;
     background-color: #0065FC;
     color: white ;
-    height: 30%;
-    padding: 5px 15px 5px 15px;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
     border-top-right-radius: 10px ;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
     border-bottom-right-radius: 10px;
     font-weight:bold;
-    width: 20%;
+    
 }
     
