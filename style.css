@@ -624,7 +624,20 @@ footer a
 {
     /* General */
 
+
+    .imageCanvas{
+        min-height: 150px;
+    }
+    #loupe{
+        display:block !important;
+     }
+    #recherche p{
+        display: none !important;
+     }
+
+
     section
+    
     {
         margin: 20px;
         padding: 0;
@@ -914,7 +927,8 @@ footer a
 
     .activityCard h3
     {
-        padding: 25%;
+        padding: 10px 25%;
+        text-align: center;
     }
 
     /* Footer */
@@ -946,6 +960,7 @@ footer a
         font-size: 1.7rem;
     }
 
+    
     h3
     {
         font-size: 1.5rem;
@@ -1039,6 +1054,8 @@ footer a
 
 #loupe{
     display:none;
+    color: white;
+    text-align: center;
  }
 
 #ville{
@@ -1065,8 +1082,9 @@ input{
 
 
 #recherche{
-    justify-content: flex-start;
-    align-items: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #0065FC;
     color: white ;
     height: 40px;
@@ -1077,7 +1095,12 @@ input{
     border-bottom-right-radius: 10px;
     font-weight:bold;
     width: 90px;
+
 }
+#recherche p{
+    display: block;
+}
+    
 
 #foundRentalSection{
     color: #0065FC;
